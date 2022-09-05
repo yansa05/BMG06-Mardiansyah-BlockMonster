@@ -1,0 +1,26 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Blue Oval Shield Effect/gfxy207_oval shield_01_blue_3d.effect"
+      },
+      "scale": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    "continueHeal": 10,
+    "damage": 50,
+    "deDmgPct": 1,
+    "name": {
+      "value": "buff_e0304317-5272-4972-9a02-79e8f109417a"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b20b59db71cb735f717d1d257476243e"
+    },
+    "VERSION": "0.23"
+  }
+}

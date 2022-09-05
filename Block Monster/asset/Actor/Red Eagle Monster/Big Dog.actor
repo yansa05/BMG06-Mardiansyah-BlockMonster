@@ -1,0 +1,25 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2030_boss_wutiangou.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="4 4 4" SoundName4="" WoundBone="" name="g2030_boss_yatiangou.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Skin ChangeColor="1.0256e-08 1.34567e-08 1.26963e+19 1.70313e+25" UseBloom="false" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2030_boss_wutiangou.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2030_boss_wutiangou_daiji.anim"/>
+			<Anim Name="asset/Anim/g2030_boss_wutiangou_gongji.anim"/>
+			<Anim Name="asset/Anim/g2030_boss_wutiangou_walk.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2030_boss_wutiangou_gongji.anim" Channel="" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2030_boss_wutiangou_daiji.anim" Channel="" TimeScale="1" Length="1.7" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2030_boss_wutiangou_walk.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,125 @@
+{
+  "data": {
+    "boundingVolume": {
+      "rotate": {
+        "y": 1
+      },
+      "type": "Sphere"
+    },
+    "boundingVolumeMissileCfg": {
+      "rotate": {
+        "y": 1
+      },
+      "type": "Sphere"
+    },
+    "hitCount": {
+      "hitCount": 1,
+      "isValid": true
+    },
+    "moveSpeed": 10,
+    "name": {
+      "value": "missile_2c345e6c-59f6-4963-9339-1cf0a5772dc5"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/Blue Fragment Flame Effect/ljpk206_shard flame_01_blue_3d.effect"
+      }
+    },
+    "target_team": "hitOtherTeam",
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3e7dc070-6bc3-4617-b2b2-48b4dbf18c91"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "90da9803-2853-4ede-b449-4f390cff19a6"
+              },
+              "pos": {
+                "x": 585,
+                "y": 105
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "3e7dc070-6bc3-4617-b2b2-48b4dbf18c91"
+              },
+              "pos": {
+                "x": 958,
+                "y": 93
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f4bd8a60-0316-4b1d-9ac4-2b5ce913b04e"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "90da9803-2853-4ede-b449-4f390cff19a6"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "b6609464-1842-4cba-87da-d9cb4efc3483"
+            },
+            "pos": {
+              "x": 249,
+              "y": 55
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    },
+    "vanishTime": {
+      "value": 40
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9c51079064cd4373474b99beb404df84",
+      "triggers.bts": "05d1858d4dd89fa49f11adc0b1a1d2db"
+    },
+    "VERSION": "0.23"
+  }
+}

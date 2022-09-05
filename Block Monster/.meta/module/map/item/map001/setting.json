@@ -1,0 +1,209 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/20f767dc-4e12-464c-916a-333ed6e2fb50",
+        "id": "8787070413797130241",
+        "position": {
+          "x": 8.33429050445557,
+          "y": 52.9999961853027,
+          "z": 16.0927219390869
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/20f767dc-4e12-464c-916a-333ed6e2fb50",
+        "id": "8787070503017037825",
+        "position": {
+          "x": 23.4523849487305,
+          "y": 52.9999961853027,
+          "z": 15.780553817749
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/20f767dc-4e12-464c-916a-333ed6e2fb50",
+        "id": "8787122581608742913",
+        "position": {
+          "x": 18.2155094146729,
+          "y": 53.0009422302246,
+          "z": 22.2632846832275
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/2101c6cf-730d-4066-89a4-d1dba7f9a133",
+        "id": "8787143803679768577",
+        "name": "TES"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/2101c6cf-730d-4066-89a4-d1dba7f9a133",
+        "id": "8787143836512075777",
+        "name": "TES",
+        "position": {
+          "x": 25.2576637268066,
+          "y": 53.0002288818359,
+          "z": 33.0493774414063
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/2101c6cf-730d-4066-89a4-d1dba7f9a133",
+        "id": "8787143853609025537",
+        "name": "TES",
+        "position": {
+          "x": 20.286771774292,
+          "y": 53.0058937072754,
+          "z": 29.7247848510742
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/20f767dc-4e12-464c-916a-333ed6e2fb50",
+        "id": "8788021273398853633",
+        "position": {
+          "x": 11.4431676864624,
+          "y": 53,
+          "z": 33.4949111938477
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788047184662773761",
+        "position": {
+          "x": 24.2674198150635,
+          "y": 53.0018196105957,
+          "z": 26.9431953430176
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788047198878105601",
+        "position": {
+          "x": 20.7237167358398,
+          "y": 53.0001068115234,
+          "z": 26.3638362884521
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788047214694432769",
+        "position": {
+          "x": 17.2308864593506,
+          "y": 53.0049781799316,
+          "z": 26.8936195373535
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788047226325139457",
+        "position": {
+          "x": 14.6945629119873,
+          "y": 53.0000305175781,
+          "z": 27.6094722747803
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788049068734234625",
+        "position": {
+          "x": 21.9927349090576,
+          "y": 53,
+          "z": 26.6424160003662
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788049086151507969",
+        "position": {
+          "x": 28.1021976470947,
+          "y": 53.0000686645508,
+          "z": 28.488000869751
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788049097679601665",
+        "position": {
+          "x": 25.8150024414063,
+          "y": 53.0077972412109,
+          "z": 24.8786029815674
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788049109240233985",
+        "position": {
+          "x": 24.3430881500244,
+          "y": 53.0005798339844,
+          "z": 30.438512802124
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788049124659281921",
+        "position": {
+          "x": 23.1314811706543,
+          "y": 53.0001106262207,
+          "z": 24.8051471710205
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+        "id": "8788061837003112449",
+        "position": {
+          "x": 17.6816520690918,
+          "y": 53.0001907348633,
+          "z": 41.7121810913086
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dedc05eab65ccde44679e29649683487"
+    },
+    "VERSION": "0.23"
+  }
+}

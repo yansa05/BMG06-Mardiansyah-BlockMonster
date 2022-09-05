@@ -1,0 +1,77 @@
+{
+  "data": {
+    "castAction": "hurt",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Blue Light Band Rotation Effect/ljpk206_rotating light strip_01_blue_3d.effect"
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 200
+    },
+    "consumeVp": 100,
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_eb9e1adc-1459-4988-9908-882c9d9df427"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 50,
+        "hurtDistance": 1
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_落地.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true
+    },
+    "startAction": "g2033_skill_chakra_05",
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "2e88b987-6505-4723-9c9a-36b5e7c7804f"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  [],
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "d7cf98b1-7d4e-4aa1-a0ff-8f191fff342a"
+            },
+            "pos": {
+              "x": 211,
+              "y": 48
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7c0a71d38ae6b39c7c95d8219ae25578",
+      "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
+    },
+    "VERSION": "0.23"
+  }
+}

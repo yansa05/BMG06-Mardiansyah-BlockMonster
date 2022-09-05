@@ -1,0 +1,41 @@
+{
+  "addCollision": 0,
+  "antiGravity": 0,
+  "continueDamage": 0,
+  "continueHeal": 10,
+  "damage": 50,
+  "damagePct": 0,
+  "deadRemove": false,
+  "deDmgPct": 1,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 0,
+  "effect": {
+    "effect": "asset/Blue Oval Shield Effect/gfxy207_oval shield_01_blue_3d.effect",
+    "once": true,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+      "z": 2
+    },
+    "selfOnly": false,
+    "yaw": 0
+  },
+  "gravity": 0,
+  "hide": 0,
+  "jumpSpeed": 0,
+  "maxHp": 0,
+  "moveAcc": 0,
+  "moveFactor": 0,
+  "moveSpeed": 0,
+  "needSave": false,
+  "reachDistance": 0,
+  "skin": [],
+  "sync": "all",
+  "unassailable": 0,
+  "undamageable": 0
+}

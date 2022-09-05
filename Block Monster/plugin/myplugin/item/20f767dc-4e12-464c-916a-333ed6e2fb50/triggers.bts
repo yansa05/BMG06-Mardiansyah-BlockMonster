@@ -1,0 +1,14 @@
+USE_ITEM {
+	StartTimer2(interval = 20, time = 1, timer = "TESSS") {
+		ChangeEntityActor(entity = $obj1, name = "Actor/Blue Ice Elemental Monster/Frost Elf.actor")
+		ShowTip(entity = $obj1, keepTime = 100, textKey = "f79e67df-7adc-40b9-9bfb-70383e2f6229", tipType = "1")
+		AddSkill(entity = $obj1, name = "myplugin/15a954d6-c5de-46d4-859f-0ae83f4d106f")
+		AddEntityVp(entity = $obj1, step = 100)
+		AddSkill(entity = $obj1, name = "myplugin/eb9e1adc-1459-4988-9908-882c9d9df427")
+		StartTimer2(interval = 500, time = 1, timer = "") {
+			ChangeEntityActor(entity = $obj1, name = "Actor/charactor/charactor_boy/character_boy.actor")
+			RemoveSkill(entity = $obj1, name = "myplugin/15a954d6-c5de-46d4-859f-0ae83f4d106f")
+		}
+		AddSkill(entity = $obj1, name = "myplugin/b4b13226-2ad3-481a-961a-5fbb0f0c944e")
+	}
+}

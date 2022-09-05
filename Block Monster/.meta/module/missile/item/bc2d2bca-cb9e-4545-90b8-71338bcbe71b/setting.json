@@ -1,0 +1,118 @@
+{
+  "data": {
+    "boundingVolume": {
+      "radius": 1,
+      "type": "Sphere"
+    },
+    "boundingVolumeMissileCfg": {
+      "radius": 1,
+      "type": "Sphere"
+    },
+    "hitCount": {
+      "hitCount": 1,
+      "hitEntityCount": 3,
+      "isValid": true
+    },
+    "name": {
+      "value": "missile_bc2d2bca-cb9e-4545-90b8-71338bcbe71b"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/Blue Light Band Rotation Effect/ljpk206_rotating light strip_01_blue_3d.effect"
+      }
+    },
+    "target_team": "hitOtherTeam",
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3cd1da54-b0b3-4acb-804b-c6a193f3bf2b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 50
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "cf69676b-31bb-4fab-a73c-836492e01bec"
+              },
+              "pos": {
+                "x": 496,
+                "y": 86
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "3cd1da54-b0b3-4acb-804b-c6a193f3bf2b"
+              },
+              "pos": {
+                "x": 882,
+                "y": 101
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "2e6ea78c-94e2-4099-beed-9c8c9bdd8fe3"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "cf69676b-31bb-4fab-a73c-836492e01bec"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "a0b6e38d-597b-4cbc-9936-9381a56bdc64"
+            },
+            "pos": {
+              "x": 182,
+              "y": 25
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "494e6413a7b8da5a85eee738707bf05b",
+      "triggers.bts": "a1e3d2fa3956310551af911326514f3f"
+    },
+    "VERSION": "0.23"
+  }
+}

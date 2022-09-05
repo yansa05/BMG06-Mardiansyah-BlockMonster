@@ -1,0 +1,75 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="dagouniao.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_ride_dagouniao.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="0.7"/>
+					<roll value="1.08274"/>
+					<SocketName value="Bone019"/>
+					<Position_Y value="-0.147563"/>
+					<yaw value="-0.960389"/>
+					<Position_Z value="-0.087559"/>
+					<pitch value="-62.4958"/>
+					<Position_X value="0.122278"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dagouniao_wind.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.6"/>
+					<roll value="0"/>
+					<SocketName value="Bone020"/>
+					<Position_Y value="-0.167203"/>
+					<yaw value="0"/>
+					<Position_Z value="-0.0334339"/>
+					<pitch value="19.5"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dagouniao_wind.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.7"/>
+					<roll value="0"/>
+					<SocketName value="Bone029"/>
+					<Position_Y value="-0.100539"/>
+					<yaw value="0"/>
+					<Position_Z value="0.0966122"/>
+					<pitch value="47.5"/>
+					<Position_X value="0.108438"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dagouniao_wind.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.6"/>
+					<roll value="0"/>
+					<SocketName value="Bone030"/>
+					<Position_Y value="-0.163271"/>
+					<yaw value="0"/>
+					<Position_Z value="0.0552197"/>
+					<pitch value="38.5"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dagouniao_wind.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 8.94028e-43 2.21007e-10 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/dagouniao.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/dagouniao_daiji.anim"/>
+			<Anim Name="asset/Anim/dagouniao_pao.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/dagouniao_daiji.anim" Channel="" TimeScale="1" Length="1.7" Times="-1"/>
+				<ActorScaleChange beginScale="7" endScale="7"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/dagouniao_pao.anim" Channel="" TimeScale="1" Length="0.633" Times="-1"/>
+				<ActorScaleChange beginScale="7" endScale="7"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

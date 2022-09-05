@@ -1,0 +1,17 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "icon": "@asset/Texture/Block/cactus_bottom.png",
+  "itemname": "item_4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb",
+  "mesh": "asset/Mesh/White Snowflake Pet Egg/bingjingdan_wenli.mesh",
+  "needSave": false,
+  "stack_count_max": 10,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

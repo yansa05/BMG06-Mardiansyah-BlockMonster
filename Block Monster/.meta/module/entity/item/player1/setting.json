@@ -1,0 +1,38 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/Blue Ice Elemental Monster/Frost Elf.actor"
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "isPlayer": true,
+    "maxHp": 100,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a70ad177b98e64de4c8305b2b8a450c5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

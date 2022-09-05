@@ -1,0 +1,88 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2021_yanhuojushou.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_pet_1_1_1.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="1"/>
+					<roll value="-111.602"/>
+					<SocketName value="Bip001_Neck"/>
+					<Position_Y value="0"/>
+					<yaw value="150.72"/>
+					<Position_Z value="0"/>
+					<pitch value="4.32406"/>
+					<Position_X value="-0.187107"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_huomo_body.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="-0.28157"/>
+					<pitch value="0"/>
+					<Position_X value="0.344615"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_huomo_hand.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 9.08041e-43 1.86978e+31 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_yanhuojushou.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2021_yanhuojushou_daiji.anim"/>
+			<Anim Name="asset/Anim/g2021_yanhuojushou_zoulu.anim"/>
+			<Anim Name="asset/Anim/g2021_yanhuojushou_shouji.anim"/>
+			<Anim Name="asset/Anim/g2021_yanhuojushou_nuhou.anim"/>
+			<Anim Name="asset/Anim/g2021_yanhuojushou_jiantadimian.anim"/>
+			<Anim Name="asset/Anim/g2021_yanhuojushou_huiji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="-0.167553"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_huomo_hand2.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1.2"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0.226767"/>
+					<pitch value="0"/>
+					<BeginTime value="0.34"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<Position_X value="0.412846"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_yanhuojushou_huiji.anim" Channel="" TimeScale="1.3" Length="1.766" Times="1"/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_yanhuojushou_nuhou.anim" Channel="" TimeScale="1" Length="2.9" Times="1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+			<Skill Name="attack3" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_yanhuojushou_jiantadimian.anim" Channel="" TimeScale="0.5" Length="1.033" Times="1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_yanhuojushou_shouji.anim" Channel="" TimeScale="1" Length="0.833" Times="1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_yanhuojushou_daiji.anim" Channel="" TimeScale="0.7" Length="1.366" Times="-1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_yanhuojushou_zoulu.anim" Channel="" TimeScale="1" Length="1.5" Times="-1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

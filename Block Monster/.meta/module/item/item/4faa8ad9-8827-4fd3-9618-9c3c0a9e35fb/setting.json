@@ -1,0 +1,110 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Texture/Block/cactus_bottom.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse"
+      },
+      "type": "Use"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/White Snowflake Pet Egg/bingjingdan_wenli.mesh"
+    },
+    "name": {
+      "value": "item_4faa8ad9-8827-4fd3-9618-9c3c0a9e35fb"
+    },
+    "stack_count_max": 10,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "4c8703c5-5919-4151-b9a0-1ec86913ecce"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 50
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "74e6950a-5b15-4bbf-81b1-62b7ae7b8577"
+              },
+              "pos": {
+                "x": 609,
+                "y": 130
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "4c8703c5-5919-4151-b9a0-1ec86913ecce"
+              },
+              "pos": {
+                "x": 948,
+                "y": 145
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "0aaddcbc-a9db-42e2-9649-dd2e86814aa2"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "74e6950a-5b15-4bbf-81b1-62b7ae7b8577"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "bbd1779e-ca7d-4efe-b20c-0dd292088bc7"
+            },
+            "pos": {
+              "x": 209,
+              "y": 151
+            }
+          },
+          "type": "Trigger_UseItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "300f1db225a6953379a8f650d06a1a2a",
+      "triggers.bts": "55f7c03d670bbb0ffb7d42311c5a31a9"
+    },
+    "VERSION": "0.23"
+  }
+}

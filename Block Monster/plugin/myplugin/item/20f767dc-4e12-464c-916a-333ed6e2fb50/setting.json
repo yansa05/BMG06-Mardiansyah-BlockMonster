@@ -1,0 +1,17 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "icon": "@asset/Texture/Block/flower_rose.png",
+  "itemname": "item_20f767dc-4e12-464c-916a-333ed6e2fb50",
+  "mesh": "asset/Mesh/White Snowflake Pet Egg/bingjingdan.mesh",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

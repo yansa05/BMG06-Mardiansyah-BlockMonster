@@ -1,0 +1,195 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="feilong.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_ride_feilong4.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bone007"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="-0.173777"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_weiba2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.15"/>
+					<roll value="29.5"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_Y value="-0.048"/>
+					<yaw value="1.39"/>
+					<Position_Z value="0.105"/>
+					<pitch value="86.5"/>
+					<Position_X value="0.038"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_head2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.15"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_Y value="0.0522873"/>
+					<yaw value="0"/>
+					<Position_Z value="0.0937102"/>
+					<pitch value="87"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_head2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.4"/>
+					<roll value="0"/>
+					<SocketName value="Bone020"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0.0118986"/>
+					<pitch value="0"/>
+					<Position_X value="0.00832611"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_wind2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bone021"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0.134991"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_wind2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bone016"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0.0719849"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_wind2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.4"/>
+					<roll value="0"/>
+					<SocketName value="Bone015"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_wind2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 8.93328e-42 2.21007e-10 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/feilong_blue1.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/feilong_daiji.anim"/>
+			<Anim Name="asset/Anim/feilong_feixing.anim"/>
+			<Anim Name="asset/Anim/feilong_gongji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/feilong_gongji.anim" Channel="" TimeScale="1" Length="2.033" Times="1"/>
+				<ActorScaleChange beginScale="6" endScale="6"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/feilong_daiji.anim" Channel="" TimeScale="0.8" Length="2.033" Times="-1"/>
+				<ActorScaleChange beginScale="6" endScale="6"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_tuowie2.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1"/>
+					<roll value="-95.1209"/>
+					<yaw value="17.14"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0"/>
+					<pitch value="-3.1308"/>
+					<BeginTime value="0"/>
+					<SocketName value="Bone021"/>
+					<Position_X value="0.0915729"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_tuowie2.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1"/>
+					<roll value="-92.6004"/>
+					<yaw value="0.901995"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0"/>
+					<pitch value="-3.61252"/>
+					<BeginTime value="0.02"/>
+					<SocketName value="Bone016"/>
+					<Position_X value="0.0645477"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_tuowie2.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1"/>
+					<roll value="83.5"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0"/>
+					<pitch value="0"/>
+					<BeginTime value="0.04"/>
+					<SocketName value="Bone020"/>
+					<Position_X value="0.0586"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_tuowie2.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1"/>
+					<roll value="90"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0"/>
+					<pitch value="0"/>
+					<BeginTime value="0.06"/>
+					<SocketName value="Bone015"/>
+					<Position_X value="0.0533"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<ActorScaleChange beginScale="6" endScale="6"/>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/feilong_feixing.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

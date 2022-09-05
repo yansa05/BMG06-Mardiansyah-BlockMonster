@@ -1,0 +1,106 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="11.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_pet_sell_3_2.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_R_Forearm"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0.176216"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_juren_red.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_L_Forearm"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0.192978"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_juren_blue.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 1.02575e-42 2.21007e-10 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/11.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/11_daiji.anim"/>
+			<Anim Name="asset/Anim/11_gongji.anim"/>
+			<Anim Name="asset/Anim/11_zoulu.anim"/>
+			<Anim Name="asset/Anim/11_gongji1.anim"/>
+			<Anim Name="asset/Anim/11_shouji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/11_gongji1.anim" Channel="" TimeScale="1" Length="1.533" Times="1"/>
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/11_gongji.anim" Channel="" TimeScale="1" Length="1.366" Times="1"/>
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+			</Skill>
+			<Skill Name="attack3" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="false"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_huoyanhuiji.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="0.4"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0.704455"/>
+					<pitch value="0"/>
+					<BeginTime value="0.38"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1.3"/>
+				</Effect>
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/11_gongji.anim" Channel="" TimeScale="0.8" Length="1.366" Times="1"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/11_shouji.anim" Channel="" TimeScale="1" Length="0.666" Times="1"/>
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="-0.133548"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_juren_body.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="0.2"/>
+					<roll value="90.8068"/>
+					<yaw value="-10.928"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0"/>
+					<pitch value="3.72117"/>
+					<BeginTime value="0"/>
+					<SocketName value="Bip001_Spine1"/>
+					<Position_X value="0.148978"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1.5"/>
+				</Effect>
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/11_daiji.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/11_zoulu.anim" Channel="" TimeScale="1.8" Length="1.9" Times="-1"/>
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

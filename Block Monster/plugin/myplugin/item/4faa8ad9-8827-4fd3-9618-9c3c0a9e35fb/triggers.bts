@@ -1,0 +1,3 @@
+USE_ITEM {
+	AddEntityVp(entity = $obj1, step = 50)
+}

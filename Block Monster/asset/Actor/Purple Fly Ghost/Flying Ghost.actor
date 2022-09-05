@@ -1,0 +1,58 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="wraith.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="wraith.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="01" MasterName="body">
+				<Skin ChangeColor="2.10195e-44 2.22246e-42 7.1491e+28 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/wraith_body.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="clothes_01" MasterName="clothes">
+				<Skin ChangeColor="2.10195e-44 2.39202e-42 7.1491e+28 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/wraith_dress.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="face_01" MasterName="face">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="b_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/wraith_face.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="hair_01" MasterName="hair">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="b_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/wraith_hair.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/wraith_move.anim"/>
+			<Anim Name="asset/Anim/wraith_death.anim"/>
+			<Anim Name="asset/Anim/wraith_attack_2.anim"/>
+			<Anim Name="asset/Anim/wraith_attack.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/wraith_attack.anim" Channel="" TimeScale="1" Length="1.7" Times="1"/>
+			</Skill>
+			<Skill Name="attack02" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/wraith_attack_2.anim" Channel="" TimeScale="1" Length="0.7" Times="1"/>
+			</Skill>
+			<Skill Name="death" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/wraith_death.anim" Channel="" TimeScale="1" Length="2.033" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/wraith_move.anim" Channel="" TimeScale="1" Length="4.7" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

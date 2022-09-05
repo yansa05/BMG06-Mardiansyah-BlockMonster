@@ -1,0 +1,36 @@
+{
+  "data": {
+    "castAction": "hurt",
+    "consumeVp": 50,
+    "name": {
+      "value": "skill_b4b13226-2ad3-481a-961a-5fbb0f0c944e"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/e0304317-5272-4972-9a02-79e8f109417a",
+        "buffTime": {
+          "value": 200
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_蹲下_act.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ec1ec4e479c5e584ed764cde9d5b7190",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

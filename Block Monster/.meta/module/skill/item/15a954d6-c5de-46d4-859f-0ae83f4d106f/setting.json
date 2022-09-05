@@ -1,0 +1,77 @@
+{
+  "data": {
+    "castAction": "attack1",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 20
+    },
+    "consumeVp": 10,
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_15a954d6-c5de-46d4-859f-0ae83f4d106f"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/2c345e6c-59f6-4963-9339-1cf0a5772dc5"
+          }
+        ],
+        "target": {
+          "type": "Camera"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_火球_nor.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      },
+      "isClickIcon": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "80e91b2f-75b6-479d-900f-a92c954a9e38"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "0e378867-59b7-47c5-8489-8ea011ea1e23"
+            },
+            "pos": {
+              "x": 297,
+              "y": 145
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "87a51316d8bbb7d5bcf6a2454b8294b6",
+      "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
+    },
+    "VERSION": "0.23"
+  }
+}
